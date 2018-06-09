@@ -1,0 +1,67 @@
+.boton-green, .boton-blue {
+  height: 100px;
+  width: 200px;
+  color: #fff;
+  border-radius: 5px; }
+
+.boton-green {
+  background-color: green; }
+
+.boton-blue {
+  background-color: blue; }
+
+.nav-bar {
+  height: 100px;
+  display: flex;
+  padding: 0 20px 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #C2185B; }
+  .nav-bar div a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff; }
+  .nav-bar a {
+    color: #fff;
+    text-decoration: none; }
+    .nav-bar a img {
+      width: 75px; }
+
+.portada {
+  height: 45vh;
+  width: 100%;
+  background: url("https://servinox.com.mx/blog/wp-content/uploads/2017/12/taqueria-la-modelo-1-1.jpg");
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .portada h2 {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 1px 2px 3px #000; }
+
+.box-tacos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 20px;
+  padding: 75px; }
+  .box-tacos img {
+    height: 150px;
+    width: 150px; }
+
+.s-around {
+  display: flex;
+  justify-content: space-around; }
+
+.box-circle {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+body {
+  margin: 0;
+  font-family: "Sunflower", sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

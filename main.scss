@@ -1,0 +1,11 @@
+@import "variables";
+@import "fuentes";
+@import "botones";
+@import "componentes";
+@import "mixins";
+
+
+body{
+    margin: $zero;
+    font-family: $primary-font;
+}
